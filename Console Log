@@ -1,0 +1,57 @@
+C:\Users\Evan\Desktop\Bukkit Plugins\Server>java -Xmx1024M -jar craftbukkit-1.6.
+2-R0.2-20130822.060235-18.jar -o true
+22:12:56 [INFO] Starting minecraft server version 1.6.2
+22:12:56 [INFO] Loading properties
+22:12:56 [INFO] Default game type: CREATIVE
+22:12:56 [INFO] Generating keypair
+22:12:56 [INFO] Starting Minecraft server on *:25565
+22:12:57 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R0.1
+-13-g6cfd4a4-b2857jnks (MC: 1.6.2) (Implementing API version 1.6.2-R0.2-SNAPSHOT
+)
+22:12:57 [SEVERE] Could not load 'plugins\staffplugin4.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.ClassCastException: class St
+affPlugin.mainClass
+        at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.j
+ava:184)
+        at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.
+java:305)
+        at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager
+.java:230)
+        at org.bukkit.craftbukkit.v1_6_R2.CraftServer.loadPlugins(CraftServer.ja
+va:239)
+        at org.bukkit.craftbukkit.v1_6_R2.CraftServer.<init>(CraftServer.java:21
+7)
+        at net.minecraft.server.v1_6_R2.PlayerList.<init>(PlayerList.java:56)
+        at net.minecraft.server.v1_6_R2.DedicatedPlayerList.<init>(SourceFile:11
+)
+        at net.minecraft.server.v1_6_R2.DedicatedServer.init(DedicatedServer.jav
+a:106)
+        at net.minecraft.server.v1_6_R2.MinecraftServer.run(MinecraftServer.java
+:391)
+        at net.minecraft.server.v1_6_R2.ThreadServerApplication.run(SourceFile:5
+82)
+Caused by: java.lang.ClassCastException: class StaffPlugin.mainClass
+        at java.lang.Class.asSubclass(Unknown Source)
+        at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.j
+ava:174)
+        ... 9 more
+22:12:57 [INFO] Preparing level "world"
+22:12:58 [INFO] Preparing start region for level 0 (Seed: 7703488637876760282)
+22:12:58 [INFO] ----- Bukkit Auto Updater -----
+22:12:58 [INFO] It appears that you're running a Development Build, when you've
+specified in bukkit.yml that you prefer to run Recommended Builds.
+22:12:58 [INFO] If you would like to be kept informed about new Development Buil
+d releases, it is recommended that you change 'preferred-channel' in your bukkit
+.yml to 'dev'.
+22:12:58 [INFO] With that set, you will be told whenever a new version is availa
+ble for download, so that you can always keep up to date and secure with the lat
+est fixes.
+22:12:58 [INFO] If you would like to disable this warning, simply set 'suggest-c
+hannels' to false in bukkit.yml.
+22:12:58 [INFO] ----- ------------------- -----
+22:12:59 [INFO] Preparing spawn area: 28%
+22:12:59 [INFO] Preparing start region for level 1 (Seed: 7703488637876760282)
+22:13:00 [INFO] Preparing start region for level 2 (Seed: 7703488637876760282)
+22:13:01 [INFO] Server permissions file permissions.yml is empty, ignoring it
+22:13:01 [INFO] Done (3.669s)! For help, type "help" or "?"
+>
