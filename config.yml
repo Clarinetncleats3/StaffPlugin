@@ -1,0 +1,49 @@
+# Default Configuration File
+# Pos stands for position
+# Pers stands for person
+# Sample Usage
+# Pretend you only have 1 owner (AwesomeOwner111Miner) and 2 CoOwners (xXSwagTasticXx and TooTiredForImagination) and the server email is superserver@gmail.com
+# Pos1:"Owner - AwesomeOwner111Miner, "
+# Pos2:"CoOwners - xXSwagTasticXx, TooTiredForImagination"
+# Pos3:
+# etc.
+# Pers1:"AwesomeOwner111"
+# Pers2:"xXSwagTasticXx"
+# Pers3:"TooTiredForImagination"
+# etc.
+# contact:"Please submit staff apps to subsuperserver@gmail.com"
+# --- End Sample
+# Copy the sample character for character and space for space.
+# Put a comma-space at the end of any pos line that has a non-empty pos line following it.
+# Note that you cannot simply add lines if you have more than 10 positions or 20 total staff. However if you need this plugin to be larger, simply email me at evbelcher@aol.com to get a larger one made for you. It is just an easy and repetitive process.
+Pos1:
+Pos2:
+Pos3:
+Pos4:
+Pos5:
+Pos6:
+Pos7:
+Pos8:
+Pos9:
+Pos10:
+Pers1:
+Pers2:
+Pers3:
+Pers4:
+Pers5:
+Pers6:
+Pers7:
+Pers8:
+Pers9:
+Pers10:
+Pers11:
+Pers12:
+Pers13:
+Pers14:
+Pers15:
+Pers16:
+Pers17:
+Pers18:
+Pers19:
+Pers20:
+contact:
