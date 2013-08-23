@@ -1,0 +1,9 @@
+name: staffplugin
+main: com.staffplugin.mainClass
+version: 1.6.2.1
+commands:
+  staff:
+    description: Tells you various things about the server staff.
+    usage: /staff <list:online:positions:app>
+    permission: StaffPlugin.staffplugin
+    permission-message: You don't have permission.
